@@ -1,0 +1,1217 @@
+
+body {
+
+  height: 100%;
+  margin: 0;
+  background-color: #03010b;
+ 
+  
+
+}
+
+body h1, 
+h2,
+nav p,
+header p{
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+body h1{
+
+  font-weight: bold;
+
+}
+
+
+
+body h2{
+
+
+
+  font-size: 32px;
+
+}
+
+body h3{
+
+  font-size: 25px;
+
+}
+
+body p{
+
+  font-size: 18px;
+  line-height: 30px;
+
+}
+
+body p,
+body a{
+
+  font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+/*------------------------------------------------------------------- Header stuffz ------------------------------------------------------*/
+
+
+
+
+header {
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(28, 22, 44);
+  height: 500px;
+  border: solid;
+  border-width: 70px 0px;
+  border-color:#03010b;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+
+}
+
+header p{
+
+
+  color: white;
+  font-size: 48px;
+  margin: 0;
+
+
+}
+
+
+.HomepageHeader {
+
+  background-image: url(../Images/Home_HBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -70px;
+
+}
+
+.LearningPageHeader {
+
+  background-image: url(../Images/Learn_HBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -10px;
+
+}
+
+.EnginesPageHeader {
+
+  background-image: url(../Images/Engines_HBG.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -10px;
+
+}
+
+.ResourcesPageHeader {
+
+  background-image: url(../Images/Resources_HBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -10px;
+
+}
+
+.TestemonialsPageHeader {
+
+  background-image: url(../Images/Testemonials_HBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -90px;
+
+}
+
+.AboutPageHeader {
+
+  background-image: url(../Images/AboutUs_\ HBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -150px;
+
+}
+
+.loginPageHeader {
+
+  background-image: url(../Images/Login_HBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  background-position-y: -50px;
+
+}
+
+
+/*------------------------------------------------------------------- Header stuffz ------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- navigation bar stuffz ------------------------------------------------------*/
+
+
+.MainNavBar {
+
+  position: fixed;
+  display: flex;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-image:linear-gradient(to right, #030b1b 2%, #763ddb 20%, #030b1b 70%);
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid;
+  border-width: 0px;
+  border-bottom-width: 2px;
+  border-color: #763ddb;
+  max-height: 100px;
+
+}
+
+.logoNav {
+
+  display: flex;
+  align-items:center;
+}
+
+
+
+.logoNav p{
+
+  color: white;
+  margin: 0;
+  font-size: 45px;
+
+}
+
+.MainPageLinks {
+
+  margin-right: 30px;
+
+}
+.MainPageLinks a{
+
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px 15px;
+  border-radius: 5px;
+  
+
+}
+
+.normal_Page_links a{
+
+    background-color: #030b1b;
+
+}
+
+.normal_Page_links a:hover{
+
+  background-color: #081227;
+
+}
+
+.normal_Page_links a:active{
+
+  background-color: #00040d;
+
+}
+
+#Login a{
+
+  background-color: #763ddb;
+
+}
+
+#Login a:hover{
+
+  background-color: #8a57e1;
+
+}
+#Login a:active{
+
+  background-color: #4a1c99;
+
+}
+
+
+
+
+.PageLinks li{
+  display: inline;
+  list-style: none;
+  width: 100%;
+  
+ 
+
+}
+
+/*------------------------------------------------------------------- navigation bar stuffz ------------------------------------------------------*/
+/*------------------------------------------------------------------- Main stuffz ------------------------------------------------------*/
+
+
+main {
+
+  padding: 100px 25px;
+  background-image: linear-gradient(to bottom, #03010b 0%, #030b1b 21%,#030b1b 95% )
+  
+
+}
+
+/*------------------------------------------------------------------- Content stuffz etc------------------------------------------------------*/
+
+.Section1,
+.Section4,
+.aboutPage section{
+
+  padding-top: 50px;
+
+}
+
+.HomepageSection1Content,
+.HomepageSection4Content,
+.HomepageSection5Content,
+.LoginpageS1,
+.LoginpageS2,
+.Learn_Page_Main_Div {
+  display: flex;
+  padding: 25px;
+}
+
+.HPS1Info,
+.HPS4Info,
+.aboutPage section {
+
+  width: 60%;
+  align-self: center;
+  
+
+}
+
+.HPS1Info h2,
+.HPS4Info h2,
+.HPS5Info h2,
+.LoginpageS1_Info h2,
+.RegistrationForm_MainTitle h2,
+.registration_Guide h2,
+.aboutPage h2{
+
+  color: #763ddb;
+  
+
+}
+
+.HPS1Info p,
+.HPS4Info p,
+.HPS5Info p,
+.LoginpageS1_Info p,
+.RegistrationForm label,
+.RegistrationForm legend,
+.registration_Guide p,
+.registration_Guide h3,
+.LoginpageS3 h3,
+.aboutPage h3,
+.aboutPage p,
+.aboutPage section ul{
+
+  color: white;
+  
+}
+
+
+
+.HPS1Pic,
+.HPS4Pic {
+
+  display: flex;
+  justify-content: center;
+  width: 40%;
+ 
+
+}
+
+.Section2,
+.Section3 {
+
+  margin-top: 50px;
+
+}
+
+.HomepageSection2Content,
+.HomepageSection3Content,
+.aboutPage section{
+
+  padding: 25px;
+
+}
+
+.HPS2_Title,
+.HPS3_Title {
+
+  display: flex;
+  color: #763ddb;
+ 
+
+}
+
+.HPS2_Info,
+.HPS3_Info {
+
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  justify-items: center;
+ 
+}
+
+.HPS2_Info >div,
+.HPS3_Info >div {
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0px 15px;
+  background-color: #151f35;
+  border-radius: 7px;
+  padding: 40px;
+  
+
+}
+
+.HPS2_Info div:first-child,
+.HPS3_Info div:first-child{
+
+  margin-left: 0;
+
+}
+
+.HPS2_Info p, 
+.HPS2_Info h3,
+.HPS3_Info p, 
+.HPS3_Info h3{
+
+  color: white;
+
+}
+
+.HPS1_Info p,
+.HPS2_Info p,
+.HPS3_Info p,
+.HPS4_Info p,
+.HPS5_Info p,
+.LoginpageS1_Info p {
+
+  text-align: justify;
+
+}
+
+
+.HPS2_CTA,
+.HPS3_CTA {
+
+  display: flex;
+  margin-top: 35px;
+
+}
+
+.HPS2_CTA a,
+.HPS3_Card a,
+.HPS5_JoinUs a{
+
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #763ddb;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.HPS3_Card {
+
+  display: flex;
+  padding: 0;
+  margin-top: auto;
+  
+
+}
+
+.HPS5Info {
+
+  width: 80%;
+
+}
+
+.HomepageSection5Content {
+
+  flex-direction: column;
+
+}
+
+.main img{
+
+  width: 5%;
+  height: auto;
+
+}
+
+
+
+/* Login */
+
+.LoginpageS2,
+.LoginpageS3 {
+
+  display: flex;
+  justify-content: center;
+  padding: 80px 25px; 
+
+}
+
+
+.LoginPage_Form_etc_Content {
+  display: flex;
+  flex-direction: row;
+  width: 80%; 
+  background-color: #1a1529;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.registration_Guide {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #763ddb; 
+  padding: 30px;
+  color: white;
+}
+
+.registration_Guide h2 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.registration_Guide p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.form_div {
+  width: 50%;
+  padding: 30px;
+}
+
+.form_div h2 {
+  color: #FF6347;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.comment_registration_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.RegistrationForm div,
+.registration_Guide div {
+  padding: 15px;
+  margin-top: 5px;
+}
+
+form fieldset {
+  border-color: #763ddb;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+form legend {
+  color: #FF6347;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+  background-color: #FF6347;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+  background-color: #e04a32;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  width: 100%; 
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #763ddb;
+  border-radius: 4px;
+  background-color: #0d0d19; 
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+/* Login */
+
+
+/* Thankyoupage */
+
+.ThankYouPageS1 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  background-color: #763ddb;
+  padding: 60px;
+  border-radius: 25px;
+
+}
+
+.ThankYouPageS1 div{
+
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+ 
+
+}
+
+.ThankYouPageS1 div h3{
+
+  text-align: center;
+  color: white;
+  font-size: 45px;
+ 
+
+}
+
+.ThankYouPageS1 div a{
+
+  text-decoration: none;
+  background-color: #FF6347;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 6px;
+ 
+
+}
+
+.thankyoupage {
+
+  background-image: linear-gradient(to bottom, #030b1b 60%, #763ddb 70%);
+
+}
+
+
+
+/* Thankyoupage */
+
+
+/* LearnPage*/
+
+.learnContent section{
+
+  width: 80%;
+
+}
+section {
+
+  padding: 60px 20px;
+  margin: 0 auto;
+  color: white;
+  text-align: left;
+}
+
+section h2 {
+
+  color: #763ddb;
+  margin-bottom: 30px;
+  font-size: 32px;
+
+}
+
+section h3 {
+
+  color: #FF6347;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+
+}
+
+section p {
+
+  font-size: 18px; 
+  line-height: 28px;
+}
+
+.LearningpageS2_Stages h2 {
+
+  text-align: center;
+
+}
+
+
+.Learning_StageContainer {
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+
+}
+
+.Learning_StageBlock {
+
+  background-color: #0d0d19;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.LearningpageS4_Roles p {
+  margin-bottom: 15px;
+}
+
+.Learning_RoleList {
+
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+
+}
+
+.Learning_RoleList li {
+
+  background-color: #0d0d19;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-left: 4px solid #763ddb;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: 24px;
+
+}
+
+.Learning_RoleList strong {
+
+  color: #FF6347;
+  margin-right: 10px;
+  font-size: 20px;
+
+}
+
+.LearningpageS1_WhatIsGamedev p,
+.LearningpageS3_GameEngine p,
+.LearningpageS5_WhyLearn p,
+.LearningpageS6_Academy p {
+  margin: 0 auto 10px auto;
+}
+
+/* LearnPage*/
+
+/* Engines Page*/
+
+section {
+  padding: 60px 25px;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  text-align: left;
+}
+
+.EnginespageS3_PopularEngines h2 {
+  text-align: center;
+}
+
+.Engines_Container {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.Engines_EngineBlock {
+  display: flex;
+  align-items: flex-start;
+  background-color: #0d0d19;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+  border-left: 5px solid #FF6347;
+}
+
+.Engines_EngineText {
+  width: 70%;
+  margin-right: 25px;
+}
+
+.Engines_EngineBlock h3 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.Engines_EngineBlock p {
+  margin-bottom: 0;
+}
+
+.Engines_Img {
+  width: 30%;
+  height: 150px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.Engines_Img img{
+  width: 50%;
+  height: auto;
+}
+
+
+.EnginespageS1_WhatIsEngine p,
+.EnginespageS2_Importance p,
+.EnginespageS4_Choosing p,
+.EnginespageS5_AcademyApproach p {
+  margin: 0 auto 10px auto;
+}
+
+.Engines_SummaryTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #0d0d19;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.Engines_SummaryTable thead th {
+  background-color: #763ddb;
+  color: white;
+  padding: 15px 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.Engines_SummaryTable tbody tr {
+  border-bottom: 1px solid #1a1529;
+}
+
+.Engines_SummaryTable tbody tr:nth-child(even) {
+  background-color: #0d0d19;
+}
+
+.Engines_SummaryTable tbody tr:nth-child(odd) {
+  background-color: #1a1529;
+}
+
+.Engines_SummaryTable tbody td {
+  color: white;
+  padding: 15px 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* Engine page*/
+
+
+/* Resources Page*/
+
+.Resource_ContentDiv {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  margin-bottom: 25px;
+  border: solid 1px #763ddb;
+  background-color: #151f35;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.Resources_TextContent {
+  width: 65%;
+}
+
+
+.ResourcesPageS2_DevTools .Resources_TextContent,
+.ResourcesPageS4_AudioSound .Resources_TextContent {
+  margin-right: 30px;
+}
+
+
+.ResourcesPageS3_ArtVisual .Resources_TextContent,
+.ResourcesPageS5_LearningRef .Resources_TextContent {
+  margin-left: 30px;
+}
+
+.ResourcesPage_img {
+  width: 35%;
+  min-width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.ResourcesPage_img img{
+  width: 75%;
+  height: auto;
+}
+
+
+.Resources_ExampleList {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.Resources_ExampleList li {
+  background-color: #0d0d19;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-left: 4px solid #FF6347;
+  border-radius: 5px;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+}
+
+
+.Resources_CtaLink {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #763ddb;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.Resources_CtaLink:hover {
+  background-color: #8a57e1;
+}
+
+.Resources_CtaLink:active{
+
+  background-color: #4a1c99;
+
+}
+
+
+.ResourcesPageS1_Introduction p,
+.ResourcesPageS6_EffectiveUse p {
+  margin-bottom: 15px;
+}
+
+
+/*Resources Page*/
+
+/*Testimonials Page*/
+
+.TestimonialsPageS1_Feedback h2 {
+  text-align: center;
+}
+
+.Testimonials_IntroParagraph {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Testimonials_GridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.Testimonials_Block {
+
+  width: 32%; 
+  background-color: #0d0d19;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 25px;
+  border-top: 3px solid #763ddb;
+}
+
+.Testimonials_UserHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Testimonials_UserImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Testimonials_UserInfo {
+  line-height: 18px;
+}
+
+.Testimonials_Username {
+  color: #FF6347;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.Testimonials_Rating {
+  color: #763ddb;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.Testimonials_Feedback {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.Testimonials_UserImage img{
+
+  border-radius: 100%;
+  border: solid 3px #FF6347;
+  margin: 0;
+  width: 125%;
+  height: auto;
+
+}
+
+/*Resources Page*/
+
+
+
+/*------------------------------------------------------------------- Content stuffz etc------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------- Main stuffz ------------------------------------------------------*/
+
+/*------------------------------------------------------------------- Footer stuffz ------------------------------------------------------*/
+
+.footerContainer {
+
+  background-image: linear-gradient( #030b1b 0%, #03000e 50%);
+  width: 100%;
+  height: 500px;
+  border: none;
+ 
+
+  
+
+}
+
+.footerrow1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  
+}
+
+.FooterLogo {
+
+  width: 5%;
+  
+
+}
+
+.logoimagefooter {
+
+  width: 175%;
+  height: auto;
+
+}
+
+.FooterInfoCol1 {
+
+  width: 47.5%;
+
+}
+ 
+.aboutusFooterTitle {
+
+  width: 47.5%;
+  margin-left: 15px;
+
+}
+.aboutusFooter {
+
+  width: 47.5%;
+  margin-left: 15px;
+
+}
+
+.JoinusfooterTitle {
+
+  margin-top: 35px;
+  width: 47.5%;
+  margin-left: 15px;
+
+}
+
+.JoinusfooterTitle a{
+
+  padding: 15px 30px;
+  background-color: #763ddb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  
+
+}
+
+.JoinusfooterTitle a:hover {
+  background-color: #8a57e1;
+}
+
+.JoinusfooterTitle a:active{
+
+  background-color: #4a1c99;
+
+}
+
+.SocialsFooter {
+
+  width: 40%;
+  position: relative;
+  
+}
+
+.social_Links {
+
+  display: flex;
+
+}
+.social_Links a{
+
+  
+  text-decoration: none;
+
+}
+
+.social_Links a, img{
+
+  
+  margin-right: 20px;
+
+}
+
+.aboutusFooterTitle p,
+.contactusfootertitle p {
+
+  color: #763ddb;
+  font-size: 40px;
+
+} 
+
+.aboutusFooter p{
+
+  color: white;
+  font-size: 20px;
+
+}
+
+
+.copyrightNoticeFoter {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  padding: 15px;
+  
+
+  
+}
+
+.copyrightNoticeFoter p{
+
+ color: white;
+ margin: 0;
+  
+}
+
+.uparrowIcon {
+
+  display: flex;
+  justify-content: right;
+  margin-top: 60px;
+  
+}
+.uparrowImage {
+
+  width: 100px;
+
+}
+
+
+/*------------------------------------------------------------------- Footer stuffz ------------------------------------------------------*/
